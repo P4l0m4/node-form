@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <form method="POST" @submit.prevent="submit" novalidate>
-      <label for="message">Send a message to DB :</label>
+      <label for="message">Send a user to DB :</label>
       <input type="text" placeholder="Nom de l'utilisateur" v-model="name" />
       <input
         type="email"
